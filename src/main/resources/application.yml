@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: OAuth2-server
+    security:
+      user:
+        name: app-user
+        password: c1e3d0fa-5aa8-4be7-83f7-32974dd617bf
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/ea?serverTimezone=UTC#
+    password: P@ssword21
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9001
