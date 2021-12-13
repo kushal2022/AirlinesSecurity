@@ -1,7 +1,7 @@
 package com.airlinereservation.authserver.model;
 
 public enum RoleName {
-    PASSANGER,
+    PASSENGER,
     AGENT,
     ADMIN
 }

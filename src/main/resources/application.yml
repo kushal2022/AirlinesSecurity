@@ -8,8 +8,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    url: jdbc:mysql://localhost:3306/ea?serverTimezone=UTC#
-    password: P@ssword21
+    url: jdbc:mysql://localhost:3306/airlinesecuritydb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    password: kushal@312
   jpa:
     properties:
       hibernate:

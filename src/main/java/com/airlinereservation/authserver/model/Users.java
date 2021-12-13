@@ -37,9 +37,6 @@ public class Users {
     @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
-
-
-
     public Users(Users users) {
 
         this.active = users.active;
@@ -49,8 +46,6 @@ public class Users {
         this.username = users.username;
         this.password = users.password;
         this.roles = users.roles;
-
     }
-
 
 }
